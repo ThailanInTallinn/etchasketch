@@ -8,3 +8,8 @@ for (let i: number = 0; i < totalDivs; i++) {
 	div.style.height = `${300 / gridSide}px`;
 	divsContainer.appendChild(div);
 }
+
+divsContainer.addEventListener("mouseover", (e) => {
+	const target = (e.target as HTMLDivElement).style;
+	target.backgroundColor = `rgb(${Math.ceil(Math.random() * 256)} ${Math.ceil(Math.random() * 256)} ${Math.ceil(Math.random() * 256)})`;
+});

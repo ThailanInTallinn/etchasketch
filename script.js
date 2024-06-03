@@ -8,3 +8,7 @@ for (var i = 0; i < totalDivs; i++) {
     div.style.height = "".concat(300 / gridSide, "px");
     divsContainer.appendChild(div);
 }
+divsContainer.addEventListener("mouseover", function (e) {
+    var target = e.target.style;
+    target.backgroundColor = "rgb(".concat(Math.ceil(Math.random() * 256), " ").concat(Math.ceil(Math.random() * 256), " ").concat(Math.ceil(Math.random() * 256), ")");
+});

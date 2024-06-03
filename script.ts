@@ -10,6 +10,10 @@ for (let i: number = 0; i < totalDivs; i++) {
 }
 
 divsContainer.addEventListener("mouseover", (e) => {
-	const target = (e.target as HTMLDivElement).style;
-	target.backgroundColor = `rgb(${Math.ceil(Math.random() * 256)} ${Math.ceil(Math.random() * 256)} ${Math.ceil(Math.random() * 256)})`;
+	e.stopPropagation();
+	if (!(e.target as HTMLDivElement).classList.contains("divs-container")) {
+		const target = (e.target as HTMLDivElement);
+		target.style.backgroundColor = `rgb(${Math.ceil(Math.random() * 256)} ${Math.ceil(Math.random() * 256)} ${Math.ceil(Math.random() * 256)})`;
+
+	};
 });

@@ -1,5 +1,11 @@
 const button: HTMLButtonElement = document.querySelector("button");
 let gridSide: number = 0;
+button.addEventListener("click", () => {
+	gridSide = Number(prompt("Insert the number of pixels"));
+	if (gridSide > 100) {
+		gridSide = 100;
+	}
+})
 const divsContainer: HTMLElement = document.querySelector(".divs-container");
 let totalDivs: number = gridSide * gridSide;
 for (let i: number = 0; i < totalDivs; i++) {

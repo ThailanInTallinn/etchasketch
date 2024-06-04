@@ -1,5 +1,11 @@
 var button = document.querySelector("button");
 var gridSide = 0;
+button.addEventListener("click", function () {
+    gridSide = Number(prompt("Insert the number of pixels"));
+    if (gridSide > 100) {
+        gridSide = 100;
+    }
+});
 var divsContainer = document.querySelector(".divs-container");
 var totalDivs = gridSide * gridSide;
 for (var i = 0; i < totalDivs; i++) {

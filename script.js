@@ -1,3 +1,4 @@
+var button = document.querySelector("button");
 var divsContainer = document.querySelector(".divs-container");
 var gridSide = Number(prompt("Insert side size"));
 var totalDivs = gridSide * gridSide;

@@ -1,3 +1,4 @@
+const button: HTMLButtonElement = document.querySelector("button");
 const divsContainer: HTMLElement = document.querySelector(".divs-container");
 let gridSide: number = Number(prompt("Insert side size"));
 let totalDivs: number = gridSide * gridSide;

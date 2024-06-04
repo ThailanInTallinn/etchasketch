@@ -25,6 +25,7 @@ header {
 	color: whitesmoke;
 	justify-content: center;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	align-items: center;
 }
 
 button {

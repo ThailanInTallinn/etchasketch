@@ -26,3 +26,11 @@ header {
 	justify-content: center;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+button {
+	width: 60px;
+	height: 30px;
+	font-size: 12px;
+	position: absolute;
+	right: 20px;
+}

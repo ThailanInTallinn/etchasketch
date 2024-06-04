@@ -11,8 +11,8 @@ body {
 .divs-container {
 	display: flex;
 	flex-wrap: wrap;
-	width: 316px;
-	height: 316px;
+	width: 516px;
+	height: 516px;
 	margin-left: auto;
 	margin-right: auto;
 	border: 8px solid grey;

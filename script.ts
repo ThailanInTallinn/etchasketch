@@ -16,8 +16,8 @@ button.addEventListener("click", () => {
 		for (let i: number = 0; i < totalDivs; i++) {
 			div = document.createElement("div");
 			div.setAttribute("class", "coloredDiv");
-			div.style.width = `${300 / gridSide}px`;
-			div.style.height = `${300 / gridSide}px`;
+			div.style.width = `${500 / gridSide}px`;
+			div.style.height = `${500 / gridSide}px`;
 			divsContainer.appendChild(div);
 		}
 
@@ -25,8 +25,8 @@ button.addEventListener("click", () => {
 		for (let i: number = 0; i < totalDivs; i++) {
 			div = document.createElement("div");
 			div.setAttribute("class", "coloredDiv");
-			div.style.width = `${300 / gridSide}px`;
-			div.style.height = `${300 / gridSide}px`;
+			div.style.width = `${500 / gridSide}px`;
+			div.style.height = `${500 / gridSide}px`;
 			divsContainer.appendChild(div);
 		}
 	}

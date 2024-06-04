@@ -16,8 +16,8 @@ button.addEventListener("click", function () {
         for (var i = 0; i < totalDivs; i++) {
             div = document.createElement("div");
             div.setAttribute("class", "coloredDiv");
-            div.style.width = "".concat(300 / gridSide, "px");
-            div.style.height = "".concat(300 / gridSide, "px");
+            div.style.width = "".concat(500 / gridSide, "px");
+            div.style.height = "".concat(500 / gridSide, "px");
             divsContainer.appendChild(div);
         }
     }
@@ -25,8 +25,8 @@ button.addEventListener("click", function () {
         for (var i = 0; i < totalDivs; i++) {
             div = document.createElement("div");
             div.setAttribute("class", "coloredDiv");
-            div.style.width = "".concat(300 / gridSide, "px");
-            div.style.height = "".concat(300 / gridSide, "px");
+            div.style.width = "".concat(500 / gridSide, "px");
+            div.style.height = "".concat(500 / gridSide, "px");
             divsContainer.appendChild(div);
         }
     }
